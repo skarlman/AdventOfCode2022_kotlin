@@ -1,15 +1,28 @@
 fun main() {
-    fun part1(input: List<String>): Int {
-        return input.size
+    fun parseInputIntoList(input: List<String>): MutableList<Int> {
+        var all = mutableListOf<Int>()
+
+        var curr = 0
+
+        for (line in input) {
+            if (line == "") {
+                all.add(curr)
+                curr = 0
+            } else {
+                curr += line.toInt()
+            }
+        }
+
+        if (curr != 0) {
+            all.add(curr)
+        }
+
+        return all
     }
 
-    fun part2(input: List<String>): Int {
-        return input.size
-    }
+    fun part1(input: List<String>): Int = parseInputIntoList(input).max()
 
-    // test if implementation meets criteria from the description, like:
-    val testInput = readInput("Day01_test")
-    check(part1(testInput) == 1)
+    fun part2(input: List<String>): Int = parseInputIntoList(input).sortedDescending().take(3).sum()
 
     val input = readInput("Day01")
     println(part1(input))
