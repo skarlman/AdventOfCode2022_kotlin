@@ -1,6 +1,6 @@
 # AdventOfCode2022_kotlin
 
-Welcome to the Advent of Code[^aoc] Kotlin project created by [skarlman][github] from CompetitiveCoders.com
+Welcome to the Advent of Code[^aoc] Kotlin project created by Karl from CompetitiveCoders.com
 
 This year I'm taking my first steps in Kotlin, because you know, why not!?
 
@@ -13,4 +13,4 @@ This year I'm taking my first steps in Kotlin, because you know, why not!?
 
 [aoc]: https://adventofcode.com
 
-See other's solutions to Advent of Code programming challenges: [Rediscover the joy of programming!](https://www.competitivecoders.com)
+[See other's solutions to the Advent of Code programming challenges!](https://www.competitivecoders.com)
