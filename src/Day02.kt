@@ -1,10 +1,10 @@
 import java.io.File
 
 // Problem:
-// https://adventofcode.com/2022/day/1
+// https://adventofcode.com/2022/day/2
 
 // More solutions:
-// https://www.competitivecoders.com/ProgrammingCompetitions/advent-of-code/advent-of-code/2022/day-1/
+// https://www.competitivecoders.com/ProgrammingCompetitions/advent-of-code/advent-of-code/2022/day-2/
 
 fun main() {
 
